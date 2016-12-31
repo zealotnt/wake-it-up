@@ -7,6 +7,6 @@
   + WAIT_TIME=120 # second to wait for target available
   + TARGET_IP=192.168.1.253 # ip address of target machine
   + TARGET_PORT=22 # port of target machine
-
-- wake it: `bash doit.sh`
+  + TARGET_USER="zealot" # user of machine to execute turn it off
+- wake it: `bash doit.sh
 
